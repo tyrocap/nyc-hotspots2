@@ -1,0 +1,1406 @@
+[{
+  "title": "Carmine's Italian Restaurant - Times Square",
+  "totalScore": 4.5,
+  "categoryName": "Italian restaurant",
+  "address": "200 W 44th St, New York, NY 10036",
+  "locatedIn": null,
+  "plusCode": "Q247+X8 New York",
+  "website": "carminesnyc.com",
+  "phone": "(212) 221-3800",
+  "temporarilyClosed": false,
+  "permanentlyClosed": false,
+  "rank": 10,
+  "placeId": "ChIJR9So-lRYwokRX1xEjA0rChA",
+  "url": "https://www.google.com/maps/place/Carmine's+Italian+Restaurant+-+Times+Square/@40.757498,-73.9888427,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25854faa8d447:0x100a2b0d8c445c5f!8m2!3d40.757498!4d-73.986654?hl=en",
+  "location": {
+    "lat": 40.757498,
+    "lng": -73.986654
+  },
+  "searchString": null,
+  "popularTimesLiveText": "",
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 12
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 12
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 12
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 75
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 12
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 87
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 62
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 50
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 12
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": []
+  },
+  "openingHours": [
+    {
+      "day": "Friday,",
+      "hours": "12 to 10PM"
+    },
+    {
+      "day": "Saturday,",
+      "hours": "12 to 10PM"
+    },
+    {
+      "day": "Sunday,",
+      "hours": "12 to 10PM"
+    },
+    {
+      "day": "Monday,",
+      "hours": "12 to 10PM"
+    },
+    {
+      "day": "Tuesday,",
+      "hours": "12 to 10PM"
+    },
+    {
+      "day": "Wednesday,",
+      "hours": "12 to 10PM"
+    },
+    {
+      "day": "Thursday,",
+      "hours": "12 to 10PM"
+    }
+  ],
+  "reviewsCount": 10973
+},
+{
+  "title": "Uncle Boons",
+  "totalScore": 4.5,
+  "categoryName": "Thai restaurant",
+  "address": "7 Spring St, New York, NY 10012",
+  "locatedIn": null,
+  "plusCode": "P2C4+H6 New York",
+  "website": "uncleboons.com",
+  "phone": "(646) 370-6650",
+  "temporarilyClosed": false,
+  "permanentlyClosed": false,
+  "rank": 18,
+  "placeId": "ChIJ5dgFHIZZwokRlGU38pcvZdU",
+  "url": "https://www.google.com/maps/place/Uncle+Boons/@40.7213778,-73.9965859,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259861c05d8e5:0xd5652f97f2376594!8m2!3d40.7213778!4d-73.9943972?hl=en",
+  "location": {
+    "lat": 40.7213778,
+    "lng": -73.9943972
+  },
+  "searchString": null,
+  "popularTimesLiveText": "",
+  "popularTimesLivePercent": null,
+  "openingHours": [
+    {
+      "day": "Friday,",
+      "hours": "5:30PM to 12AM"
+    },
+    {
+      "day": "Saturday,",
+      "hours": "5:30PM to 12AM"
+    },
+    {
+      "day": "Sunday,",
+      "hours": "5:30 to 11PM"
+    },
+    {
+      "day": "Monday,",
+      "hours": "5:30 to 11PM"
+    },
+    {
+      "day": "Tuesday,",
+      "hours": "5:30 to 11PM"
+    },
+    {
+      "day": "Wednesday,",
+      "hours": "5:30 to 11PM"
+    },
+    {
+      "day": "Thursday,",
+      "hours": "5:30 to 11PM"
+    }
+  ],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Delivery": true
+      },
+      {
+        "Takeout": true
+      }
+    ],
+    "Highlights": [
+      {
+        "Live music": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": false
+      }
+    ],
+    "Offerings": [
+      {
+        "All you can eat": true
+      },
+      {
+        "Happy hour food": true
+      },
+      {
+        "Kids' menu": true
+      },
+      {
+        "Late-night food": true
+      },
+      {
+        "Vegetarian options": true
+      }
+    ],
+    "Dining options": [
+      {
+        "Dinner": true
+      },
+      {
+        "Catering": true
+      },
+      {
+        "Dessert": true
+      }
+    ],
+    "Planning": [
+      {
+        "Accepts reservations": true
+      }
+    ],
+    "Payments": [
+      {
+        "Cash-only": true
+      }
+    ]
+  },
+  "reviewsCount": null
+},
+{
+  "title": "Kajitsu",
+  "totalScore": 4.5,
+  "categoryName": "Japanese restaurant",
+  "address": "125 E 39th St, New York, NY 10016",
+  "locatedIn": null,
+  "plusCode": "P2XC+WV New York",
+  "website": "kajitsunyc.com",
+  "phone": "(212) 228-4873",
+  "temporarilyClosed": false,
+  "permanentlyClosed": false,
+  "rank": 93,
+  "placeId": "ChIJ74OVUQFZwokRbrVbu_KUlgo",
+  "url": "https://www.google.com/maps/place/Kajitsu/@40.7497944,-73.9799498,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25901519583ef:0xa9694f2bb5bb56e!8m2!3d40.7497944!4d-73.9777611?hl=en",
+  "location": {
+    "lat": 40.7497944,
+    "lng": -73.9777611
+  },
+  "searchString": null,
+  "popularTimesLiveText": "",
+  "popularTimesLivePercent": null,
+  "openingHours": [
+    {
+      "day": "Friday,",
+      "hours": "5:30 to 9PM"
+    },
+    {
+      "day": "Saturday,",
+      "hours": "5:30 to 9PM"
+    },
+    {
+      "day": "Sunday,",
+      "hours": "5:30 to 9PM"
+    },
+    {
+      "day": "Monday,",
+      "hours": "Closed"
+    },
+    {
+      "day": "Tuesday,",
+      "hours": "5:30 to 9PM"
+    },
+    {
+      "day": "Wednesday,",
+      "hours": "5:30 to 9PM"
+    },
+    {
+      "day": "Thursday,",
+      "hours": "5:30 to 9PM"
+    }
+  ],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Delivery": true
+      },
+      {
+        "Takeout": true
+      },
+      {
+        "Dine-in": false
+      }
+    ],
+    "Highlights": [
+      {
+        "Great tea selection": true
+      }
+    ],
+    "Popular for": [
+      {
+        "Dinner": true
+      },
+      {
+        "Solo dining": true
+      }
+    ],
+    "Offerings": [
+      {
+        "Healthy options": true
+      },
+      {
+        "Vegetarian options": true
+      }
+    ],
+    "Dining options": [
+      {
+        "Dessert": true
+      }
+    ],
+    "Atmosphere": [
+      {
+        "Cozy": true
+      },
+      {
+        "Romantic": true
+      },
+      {
+        "Upscale": true
+      }
+    ],
+    "Planning": [
+      {
+        "Dinner reservations recommended": true
+      },
+      {
+        "Accepts reservations": true
+      }
+    ]
+  },
+  "reviewsCount": null
+},
+{
+  "title": "Becco",
+  "totalScore": 4.4,
+  "categoryName": "Italian restaurant",
+  "address": "355 W 46th St, New York, NY 10036",
+  "locatedIn": null,
+  "plusCode": "Q266+83 New York",
+  "website": "becco-nyc.com",
+  "phone": "(212) 397-7597",
+  "temporarilyClosed": true,
+  "permanentlyClosed": false,
+  "rank": 98,
+  "placeId": "ChIJndGJ5FNYwokRricJvhT0t1s",
+  "url": "https://www.google.com/maps/place/Becco/@40.760804,-73.9920211,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25853e489d19d:0x5bb7f414be0927ae!8m2!3d40.760804!4d-73.9898324?hl=en",
+  "location": {
+    "lat": 40.760804,
+    "lng": -73.9898324
+  },
+  "searchString": null,
+  "popularTimesLiveText": "",
+  "popularTimesLivePercent": null,
+  "openingHours": [
+    {
+      "day": "Friday,",
+      "hours": "12 to 3PM, 4:30 to 11:30PM"
+    },
+    {
+      "day": "Saturday,",
+      "hours": "11:30AM to 3PM, 4PM to 12AM"
+    },
+    {
+      "day": "Sunday,",
+      "hours": "12 to 10PM"
+    },
+    {
+      "day": "Monday,",
+      "hours": "12 to 3PM, 5 to 10PM"
+    },
+    {
+      "day": "Tuesday,",
+      "hours": "12 to 3PM, 4 to 10PM"
+    },
+    {
+      "day": "Wednesday,",
+      "hours": "11:30AM to 3PM, 4 to 10PM"
+    },
+    {
+      "day": "Thursday,",
+      "hours": "12 to 3PM, 4 to 10PM"
+    }
+  ],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Takeout": true
+      },
+      {
+        "Dine-in": false
+      }
+    ],
+    "Offerings": [
+      {
+        "Coffee": true
+      },
+      {
+        "Comfort food": true
+      },
+      {
+        "Late-night food": true
+      },
+      {
+        "Vegetarian options": true
+      }
+    ],
+    "Dining options": [
+      {
+        "Dessert": true
+      }
+    ],
+    "Amenities": [
+      {
+        "High chairs": true
+      }
+    ],
+    "Planning": [
+      {
+        "Accepts reservations": true
+      }
+    ]
+  },
+  "reviewsCount": null
+},
+{
+  "title": "Carbone",
+  "totalScore": 4.4,
+  "categoryName": "Italian restaurant",
+  "address": "181 Thompson St, New York, NY 10012",
+  "locatedIn": null,
+  "plusCode": "PXHX+5W New York",
+  "website": "carbonenewyork.com",
+  "phone": "(212) 254-3000",
+  "temporarilyClosed": false,
+  "permanentlyClosed": false,
+  "rank": 87,
+  "placeId": "ChIJmSvG_ZFZwokRTOFeiLXzkmA",
+  "url": "https://www.google.com/maps/place/Carbone/@40.7279895,-74.0024069,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25991fdc62b99:0x6092f3b5885ee14c!8m2!3d40.7279895!4d-74.0002182?hl=en",
+  "location": {
+    "lat": 40.7279895,
+    "lng": -74.0002182
+  },
+  "searchString": null,
+  "popularTimesLiveText": "",
+  "popularTimesLivePercent": null,
+  "popularTimesHistogram": {
+    "Su": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 8
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 10
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 12
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 26
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 37
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 53
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 71
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Mo": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 17
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 30
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 49
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 58
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 48
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Tu": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 23
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 49
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 73
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 82
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "We": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 20
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 41
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 67
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 82
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 69
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Th": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 27
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 51
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 74
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 82
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 68
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Fr": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 9
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 12
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 15
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 38
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 79
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 100
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 89
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 79
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ],
+    "Sa": [
+      {
+        "hour": 6,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 7,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 8,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 9,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 10,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 11,
+        "occupancyPercent": 14
+      },
+      {
+        "hour": 12,
+        "occupancyPercent": 20
+      },
+      {
+        "hour": 13,
+        "occupancyPercent": 25
+      },
+      {
+        "hour": 14,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 15,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 16,
+        "occupancyPercent": 46
+      },
+      {
+        "hour": 17,
+        "occupancyPercent": 64
+      },
+      {
+        "hour": 18,
+        "occupancyPercent": 80
+      },
+      {
+        "hour": 19,
+        "occupancyPercent": 82
+      },
+      {
+        "hour": 20,
+        "occupancyPercent": 65
+      },
+      {
+        "hour": 21,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 22,
+        "occupancyPercent": 0
+      },
+      {
+        "hour": 23,
+        "occupancyPercent": 0
+      }
+    ]
+  },
+  "openingHours": [
+    {
+      "day": "Friday,",
+      "hours": "11:30AM to 2PM, 4 to 9PM"
+    },
+    {
+      "day": "Saturday,",
+      "hours": "11:30AM to 2PM, 4 to 9PM"
+    },
+    {
+      "day": "Sunday,",
+      "hours": "11:30AM to 2PM, 4 to 9PM"
+    },
+    {
+      "day": "Monday,",
+      "hours": "4 to 9PM"
+    },
+    {
+      "day": "Tuesday,",
+      "hours": "4 to 9PM"
+    },
+    {
+      "day": "Wednesday,",
+      "hours": "4 to 9PM"
+    },
+    {
+      "day": "Thursday,",
+      "hours": "4 to 9PM"
+    }
+  ],
+  "additionalInfo": {
+    "Service options": [
+      {
+        "Delivery": true
+      },
+      {
+        "Takeout": true
+      },
+      {
+        "Dine-in": false
+      }
+    ],
+    "Highlights": [
+      {
+        "Great coffee": true
+      },
+      {
+        "Great dessert": true
+      }
+    ],
+    "Popular for": [
+      {
+        "Lunch": true
+      },
+      {
+        "Dinner": true
+      }
+    ],
+    "Accessibility": [
+      {
+        "Wheelchair accessible entrance": true
+      }
+    ],
+    "Offerings": [
+      {
+        "Alcohol": true
+      },
+      {
+        "Beer": true
+      },
+      {
+        "Coffee": true
+      },
+      {
+        "Comfort food": true
+      },
+      {
+        "Late-night food": true
+      },
+      {
+        "Wine": true
+      }
+    ],
+    "Dining options": [
+      {
+        "Dessert": true
+      }
+    ],
+    "Atmosphere": [
+      {
+        "Cozy": true
+      },
+      {
+        "Romantic": true
+      },
+      {
+        "Upscale": true
+      }
+    ],
+    "Crowd": [
+      {
+        "Groups": true
+      },
+      {
+        "Tourists": true
+      }
+    ],
+    "Planning": [
+      {
+        "Lunch reservations recommended": true
+      },
+      {
+        "Dinner reservations recommended": true
+      },
+      {
+        "Accepts reservations": true
+      },
+      {
+        "Usually a wait": true
+      }
+    ]
+  },
+  "reviewsCount": null
+}]

@@ -1,24 +1,24 @@
+// import system files
 import React from 'react';
-import logo from './logo.svg';
+
+// import style files
 import './App.css';
 
+// import component files
+import LandingPage from "./components/LandingPage";
+import CityList from "./components/CityList";
+import TimesHolder from "./components/TimesHolder";
+import MyListHolder from "./components/MyListHolder";
+
+// main function
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LandingPage />
+      <CityList>
+      </CityList>
+      <TimesHolder/>
+      <MyListHolder/>
     </div>
   );
 }
