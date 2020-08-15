@@ -14,7 +14,7 @@ function CityHolder(props) {
       <GoTriangleDown onClick={() => setToggle( toggled === false)}/>
       {
         toggled ?
-          <RestaurantHolder restaurants={props.data}/>
+          <RestaurantHolder filter_zcodes={props.filter_zcodes} restaurants={props.data}/>
           : null
       }
     </div>
