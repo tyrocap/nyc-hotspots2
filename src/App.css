@@ -1,38 +1,97 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.lp-background {
+    position: relative;
+    height: 100vh;
+    background-image: url("./images/landing_page_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lp-content {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.lp-place-holder {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 600px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow-x: hidden;
+
+}
+
+.lp-slide-holder {
+    position: relative;
+}
+
+/*.lp-place-wrapper {*/
+/*    position: absolute;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    list-style: none;*/
+/*    left: 10px;*/
+/*}*/
+
+
+.lp-slide {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: rgba(12, 222, 199, 0.6);
+    min-width: 560px;
+    min-height: 230px;
+    margin: 10px;
+}
+
+.slide-left {
+    flex: 3;
+}
+
+.slide-mid {
+    flex: 4;
+}
+
+.slide-right {
+    flex: 2;
 }

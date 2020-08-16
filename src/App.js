@@ -3,6 +3,7 @@ import React from 'react';
 
 // import style files
 import './App.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 // import component files
 import LandingPage from "./components/LandingPage";
