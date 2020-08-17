@@ -6,15 +6,14 @@ import {v4} from 'uuid';
 
 function CityList() {
   return (
-    <div className="city-list">
-      <h1>This is a CityList</h1>
-      {neighborhoods.map(neighborhood =>
-        <CityHolder
-          key={v4()}
-          city_name={neighborhood.title}
-          data={restaurants}
-          filter_zcodes={neighborhood.zcodes}/>)}
-    </div>
+      <div className="city-list-wrapper">
+        {neighborhoods.map(neighborhood =>
+          <CityHolder
+            key={v4()}
+            city_name={neighborhood.title}
+            data={restaurants}
+            filter_zcodes={neighborhood.zcodes}/>)}
+      </div>
   );
 }
 

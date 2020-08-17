@@ -5,10 +5,12 @@ import TimeSeriesSelector from "./TimeSeriesSelector";
 
 function TimesHolder() {
   return (
-    <div className="times-holder">
-      <DropdownSelector />
-      <TimeSeriesSelector />
-    </div>
+      <div className="times-wrapper">
+        <div className="times-holder">
+          <DropdownSelector/>
+          <TimeSeriesSelector/>
+        </div>
+      </div>
   );
 }
 

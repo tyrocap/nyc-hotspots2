@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import RestaurantHolder from "./RestaurantHolder";
-import { GoTriangleDown } from 'react-icons/go'
+import {GoTriangleDown} from 'react-icons/go'
 
 
 // props is equal to (city_name: "Chelsea", data: "restaurants")
@@ -11,10 +11,11 @@ function CityHolder(props) {
   const [toggled, setToggle] = useState(false);
   return (
     <div className="city-holder">{props.city_name}
-      <GoTriangleDown onClick={() => setToggle( toggled === false)}/>
+      <GoTriangleDown onClick={() => setToggle(toggled === false)}/>
       {
         toggled ?
-          <RestaurantHolder filter_zcodes={props.filter_zcodes} restaurants={props.data}/>
+          <RestaurantHolder filter_zcodes={props.filter_zcodes}
+                            restaurants={props.data}/>
           : null
       }
     </div>

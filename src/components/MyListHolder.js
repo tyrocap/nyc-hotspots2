@@ -2,9 +2,11 @@ import React from 'react';
 
 function MyListHolder() {
   return (
-    <div className="mylist-holder">
-      <h1>This is a MyListHolder</h1>
-    </div>
+      <div className="mylist-wrapper">
+        <h2>This is a my list</h2>
+        <h2>This is a my list</h2>
+      </div>
+
   );
 }
 

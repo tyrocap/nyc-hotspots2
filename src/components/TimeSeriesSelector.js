@@ -1,7 +1,33 @@
 import React, {Component} from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
 import Slider from "@material-ui/core/Slider";
+import { createMuiTheme} from "@material-ui/core/styles";
+import { ThemeProvider } from "@material-ui/styles";
+
+const muiTheme = createMuiTheme({
+  overrides: {
+    MuiSlider: {
+      root: {
+        color: "rgba(255, 255, 255, 1)"
+      },
+      thumb: {
+        color: "rgba(191, 186, 186, 1)",
+      },
+      track: {
+        color: "rgba(191, 186, 186, 1)"
+      },
+      rail: {
+        color: "rgba(191, 186, 186, 0.4)"
+      },
+      markLabel: {
+        color: "rgba(255, 255, 255, 1)"
+      },
+      markLabelActive: {
+        color: "rgba(255, 255, 255, 1)",
+      }
+    }
+  }
+});
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -9,7 +35,7 @@ const useStyles = makeStyles(theme => ({
   },
   margin: {
     height: theme.spacing(1)
-  }
+  },
 }));
 
 const marks = [
@@ -73,16 +99,18 @@ function TimeSeriesSelector() {
     <div id='HeatMapSlider'>
       <div className='heat-map-slider-container'>
         <div className='slider-container'>
-          <Slider
-            className='slider-style'
-            defaultValue={20}
-            getAriaValueText={valuetext}
-            aria-labelledby='discrete-slider-custom'
-            step={10}
-            marks={marks}
-            onChange={(e, val)=>{this.val=val}}
-            onMouseUp={(e)=>{this.props.handleChange(this.val)}}
-          />
+          <ThemeProvider theme={muiTheme}>
+            <Slider
+              className='slider-style'
+              defaultValue={20}
+              getAriaValueText={valuetext}
+              aria-labelledby='discrete-slider-custom'
+              step={10}
+              marks={marks}
+              onChange={(e, val)=>{this.val=val}}
+              onMouseUp={(e)=>{this.props.handleChange(this.val)}}
+            />
+          </ThemeProvider>
         </div>
       </div>
     </div>

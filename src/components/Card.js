@@ -14,6 +14,7 @@ function Card({restaurant}) {
         <a href={restaurant.url} target="_blank"><GrMapLocation /></a>
       </div>
       <div className="slide-right">
+        <h2>Score</h2>
         <h1>{restaurant.totalScore}</h1>
       </div>
     </div>
