@@ -4,7 +4,7 @@ import restaurants from "../data/dataset_crawler-google-places_nyc_2020-08-14.js
 import neighborhoods from "../data/nyc_neighborhoods_by_zcode.json";
 import {v4} from 'uuid';
 
-function CityList() {
+function CityList({onClickedRest = f => f}) {
   return (
       <div className="city-list-wrapper">
         <h2 id="city-list-header">Explore Areas</h2>
@@ -13,7 +13,9 @@ function CityList() {
             key={v4()}
             city_name={neighborhood.title}
             data={restaurants}
-            filter_zcodes={neighborhood.zcodes}/>)}
+            filter_zcodes={neighborhood.zcodes}
+            onClicked={onClickedRest}
+          />)}
       </div>
   );
 }

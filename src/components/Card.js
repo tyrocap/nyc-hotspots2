@@ -1,5 +1,5 @@
 import React from 'react';
-import { GrMapLocation } from "react-icons/gr/index";
+import {GrMapLocation} from "react-icons/gr/index";
 
 function Card({restaurant}) {
   return (
@@ -8,10 +8,11 @@ function Card({restaurant}) {
         <img alt="Image"/>
       </div>
       <div className="slide-mid">
-        <a href={`https://www.${restaurant.website}`} target="_blank"><h2>{restaurant.title}</h2></a>
+        <a href={`https://www.${restaurant.website}`} target="_blank">
+          <h2>{restaurant.title}</h2></a>
         <h3>{restaurant.categoryName}</h3>
         <h4>{restaurant.phone}</h4>
-        <a href={restaurant.url} target="_blank"><GrMapLocation /></a>
+        <a href={restaurant.url} target="_blank"><GrMapLocation/></a>
       </div>
       <div className="slide-right">
         <h2>Score</h2>
