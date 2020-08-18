@@ -7,6 +7,7 @@ import {v4} from 'uuid';
 function CityList() {
   return (
       <div className="city-list-wrapper">
+        <h2 id="city-list-header">Explore Areas</h2>
         {neighborhoods.map(neighborhood =>
           <CityHolder
             key={v4()}

@@ -1,13 +1,28 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {GoTriangleDown} from 'react-icons/go';
 
-function DropdownSelector() {
+const timeIndexMap = {
+  1: "5PM",
+  2: "6PM",
+  3: "7PM",
+  4: "8PM",
+  5: "9PM",
+  6: "10PM",
+  7: "11PM",
+  8: "12PM",
+  9: "1AM",
+  10: "2AM",
+  11: "3AM"
+}
+
+
+function DropdownSelector(props) {
   const [city_toggled, CityToggle] = useState(false);
   const [city_selected, selectCity] = useState("Chelsea");
   const [day_toggled, DayToggle] = useState(false);
   const [day_selected, selectDay] = useState("Monday");
   const [time_toggled, TimeToggle] = useState(false);
-  const [time_selected, selectTime] = useState("5PM");
+  const [time_selected, selectTime] = useState("7PM");
 
   const changeCity = (event) => {
     event.preventDefault();
@@ -23,6 +38,11 @@ function DropdownSelector() {
     event.preventDefault();
     selectTime(event.target.value);
   };
+
+  // whenever the props change, this will update the state
+  useEffect(() => {
+    selectTime(timeIndexMap[props.timeIndex])
+  }, [props.timeIndex]);
 
   return (
     <div className="dropdown-selector">
@@ -92,37 +112,37 @@ function DropdownSelector() {
       around
       <div className="dropdown-time-holder"
            onClick={() => TimeToggle(time_toggled === false)}>&nbsp;{time_selected}
-        <GoTriangleDown/>
-        {
-          time_toggled ? (
-              <div className="dd-time-wrapper">
-                <button className="dd-btn" onClick={changeTime} value="5PM">5PM
-                </button>
-                <button className="dd-btn" onClick={changeTime} value="6PM">6PM
-                </button>
-                <button className="dd-btn" onClick={changeTime} value="7PM">7PM
-                </button>
-                <button className="dd-btn" onClick={changeTime} value="8PM">8PM
-                </button>
-                <button className="dd-btn" onClick={changeTime} value="9PM">9PM
-                </button>
-                <button className="dd-btn" onClick={changeTime}
-                        value="10PM">10PM
-                </button>
-                <button className="dd-btn" onClick={changeTime}
-                        value="11PM">11PM
-                </button>
-                <button className="dd-btn" onClick={changeTime}
-                        value="12PM">12PM
-                </button>
-                <button className="dd-btn" onClick={changeTime} value="1AM">1AM
-                </button>
-                <button className="dd-btn" onClick={changeTime} value="2AM">2AM
-                </button>
-                <button className="dd-btn" onClick={changeTime} value="3AM">3AM
-                </button>
-              </div>)
-            : null}
+        {/*<GoTriangleDown/>*/}
+        {/*{*/}
+        {/*  time_toggled ? (*/}
+        {/*      <div className="dd-time-wrapper">*/}
+        {/*        <button className="dd-btn" onClick={changeTime} value="5PM">5PM*/}
+        {/*        </button>*/}
+        {/*        <button className="dd-btn" onClick={changeTime} value="6PM">6PM*/}
+        {/*        </button>*/}
+        {/*        <button className="dd-btn" onClick={changeTime} value="7PM">7PM*/}
+        {/*        </button>*/}
+        {/*        <button className="dd-btn" onClick={changeTime} value="8PM">8PM*/}
+        {/*        </button>*/}
+        {/*        <button className="dd-btn" onClick={changeTime} value="9PM">9PM*/}
+        {/*        </button>*/}
+        {/*        <button className="dd-btn" onClick={changeTime}*/}
+        {/*                value="10PM">10PM*/}
+        {/*        </button>*/}
+        {/*        <button className="dd-btn" onClick={changeTime}*/}
+        {/*                value="11PM">11PM*/}
+        {/*        </button>*/}
+        {/*        <button className="dd-btn" onClick={changeTime}*/}
+        {/*                value="12PM">12PM*/}
+        {/*        </button>*/}
+        {/*        <button className="dd-btn" onClick={changeTime} value="1AM">1AM*/}
+        {/*        </button>*/}
+        {/*        <button className="dd-btn" onClick={changeTime} value="2AM">2AM*/}
+        {/*        </button>*/}
+        {/*        <button className="dd-btn" onClick={changeTime} value="3AM">3AM*/}
+        {/*        </button>*/}
+        {/*      </div>)*/}
+        {/*    : null}*/}
       </div>
     </div>
   );

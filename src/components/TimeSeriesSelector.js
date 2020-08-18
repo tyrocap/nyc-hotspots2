@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import { makeStyles } from "@material-ui/core/styles";
+import {makeStyles} from "@material-ui/core/styles";
 import Slider from "@material-ui/core/Slider";
-import { createMuiTheme} from "@material-ui/core/styles";
-import { ThemeProvider } from "@material-ui/styles";
+import {createMuiTheme} from "@material-ui/core/styles";
+import {ThemeProvider} from "@material-ui/styles";
 
 const muiTheme = createMuiTheme({
   overrides: {
@@ -85,16 +85,11 @@ const marks = [
   }
 ];
 
-function valuetext(value) {
-  return `${value}°C`;
-}
-
-function valueLabelFormat(value) {
+function findTimeIndex(value) {
   return marks.findIndex(mark => mark.value === value) + 1;
 }
 
-
-function TimeSeriesSelector() {
+function TimeSeriesSelector({passTimeIndex = f => f}) {
   return (
     <div id='HeatMapSlider'>
       <div className='heat-map-slider-container'>
@@ -103,12 +98,12 @@ function TimeSeriesSelector() {
             <Slider
               className='slider-style'
               defaultValue={20}
-              getAriaValueText={valuetext}
               aria-labelledby='discrete-slider-custom'
               step={10}
               marks={marks}
-              onChange={(e, val)=>{this.val=val}}
-              onMouseUp={(e)=>{this.props.handleChange(this.val)}}
+              onChange={(e, val) => {
+                passTimeIndex(findTimeIndex(val));
+              }}
             />
           </ThemeProvider>
         </div>
@@ -116,4 +111,5 @@ function TimeSeriesSelector() {
     </div>
   );
 }
+
 export default TimeSeriesSelector;

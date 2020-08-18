@@ -3,15 +3,17 @@ import React from 'react';
 function RestaurantItem({
                           title,
                           categoryName,
-                          address,
-                          phone,
+                          totalScore,
                         }) {
   return (
     <div className="restaurant-item">
-      <h2>{title}</h2>
-      <p>{categoryName}</p>
-      <p>{phone}</p>
-      <p>{address}</p>
+      <div style={{flex: 3}}>
+        <h3 id="restaurant-item-header">{title}</h3>
+        <p id="restaurant-item-body">{categoryName}</p>
+      </div>
+      <div style={{flex: 1}}>
+        <h3 id="restaurant-item-score">{Math.round((totalScore/5)*100)}%</h3>
+      </div>
     </div>
   );
 }

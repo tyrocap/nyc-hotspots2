@@ -10,7 +10,7 @@
     ]
   },
   {
-    "title": "Chelsea and Clinton",
+    "title": "Chelsea",
     "zcodes": [
       10001,
       10011,
@@ -28,20 +28,33 @@
     ]
   },
   {
-    "title": "Gramercy Park and Murray Hill",
+    "title": "Murray Hill",
+    "zcodes": [
+      10016
+    ]
+  },
+  {
+    "title": "Gramercy Park",
     "zcodes": [
       10010,
-      10016,
       10017,
       10022
     ]
   },
   {
-    "title": "Greenwich Village and Soho",
+    "title": "Greenwich Village",
+    "zcodes": [
+      10003,
+      10011,
+      10012,
+      10014
+    ]
+  },
+  {
+    "title": "Soho",
     "zcodes": [
       10012,
-      10013,
-      10014
+      10013
     ]
   },
   {
@@ -83,11 +96,16 @@
     ]
   },
   {
-    "title": "Inwood and Washington Heights",
+    "title": "Washington Heights",
     "zcodes": [
       10031,
       10032,
-      10033,
+      10033
+    ]
+  },
+  {
+    "title": "Inwood",
+    "zcodes": [
       10034,
       10040
     ]

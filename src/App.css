@@ -111,7 +111,36 @@
     color: white;
     background-color: rgba(0,0,0,0.5);
     width: 26%;
-    min-height: 800px;
+    height: 800px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px 0 0 0;
+}
+
+#city-list-header {
+    margin: 0 0 10px 0;
+}
+
+.city-holder {
+    text-align: left;
+    padding: 10px 10px 0 10px;
+
+}
+.restaurant-item {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0 10px 10px 10px;
+    margin: 5px 0 5px 0;
+    border-radius: 4px;
+}
+
+#restaurant-item-header {
+    margin: 10px 0 0 0;
+}
+
+#restaurant-item-body {
+    margin: 0;
 }
 
 .times-wrapper {
