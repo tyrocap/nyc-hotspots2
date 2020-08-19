@@ -212,12 +212,22 @@
 .rest-onmap-container {
     display: flex;
     flex-direction: row;
-    height: 200px;
-    width: 400px;
+    height: 230px;
+    width: 46%;
     position: absolute;
     background-color: rgba(0,0,0,0.5);
-    top: 160%;
+    top: 170%;
     left: 30%;
     z-index: 3;
     color: white;
 }
+
+.mylist-item {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0,0,0,0.5);
+    padding: 0 5px 5px 5px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
