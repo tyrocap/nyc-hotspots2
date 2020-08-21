@@ -1,6 +1,6 @@
 import React from 'react';
 import PlaceHolder from "./lpPlaceHolder";
-import restaurants from "../data/dataset_crawler-google-places_nyc_2020-08-14.json";
+import restaurants from "../data/dataset_crawler-google-places_2020-08-20_00-37-10-231.json";
 
 function LandingPage() {
   return (

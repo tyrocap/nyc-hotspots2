@@ -12,9 +12,19 @@ function CityHolder({city_name, filter_zcodes, data, onClicked = f => f}) {
   // useState hook to toggle city-holder component content
   const [toggled, setToggle] = useState(false);
 
+  const handleClick = (event) => {
+    if (event.currentTarget.getAttribute("id") === "gotriangledown") {
+      // NEEDS FIXING
+      event.stopPropagation();
+      setToggle(toggled===false)
+    } else {
+      console.log("else")
+      return;
+    }
+  }
   return (
     <div className="city-holder">{city_name}
-      <GoTriangleDown onClick={() => setToggle(toggled === false)} />
+      <GoTriangleDown id="gotriangledown" onClick={event => handleClick(event)} />
       {
         toggled ?
           <RestaurantHolder

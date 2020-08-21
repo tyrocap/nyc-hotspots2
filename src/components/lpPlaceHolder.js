@@ -19,14 +19,15 @@ function PlaceHolder({restaurants = []}) {
             transitionTime={2200}
             showArrows={false}
             showIndicators={false}>
-            {restaurants.sort((a, b) => b.totalScore - a.totalScore).slice(0, 10).map(restaurant =>
+            {restaurants.sort((a, b) =>
+              b.totalScore - a.totalScore).slice(0, 10).map(restaurant =>
               <Card key={restaurant.placeId} restaurant={restaurant}/>
             )}
           </Carousel>
         </div>
       </div>
     </div>
-);
+  );
 }
 
 export default PlaceHolder;

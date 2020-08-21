@@ -5,7 +5,7 @@ import React, {useState} from 'react';
 import './App.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import restaurants
-  from "./data/dataset_crawler-google-places_nyc_2020-08-14.json";
+  from "./data/dataset_crawler-google-places_2020-08-20_00-37-10-231.json"
 
 
 // import component files
@@ -20,6 +20,7 @@ import RestOnMap from './components/RestOnMap';
 function App() {
   const [clicked_rest, setRest] = useState(null)
   const [selected_rests, addToList] = useState([])
+  const [changed_city, passChangedCity] = useState(null)
   return (
     <div className="App">
       <LandingPage/>
@@ -30,7 +31,9 @@ function App() {
           setRest(newRest[0]);
         }}
       />
-      <TimesHolder/>
+      <TimesHolder
+        passSelectedCity={newCity => passChangedCity(newCity)}
+      />
       <MyListHolder
         selected_rests={selected_rests}
         // "remove rest from my list" logic
@@ -57,7 +60,9 @@ function App() {
           }}
         />
         : null}
-      <GoogleMapReact/>
+      <GoogleMapReact
+        changed_city={changed_city}
+      />
     </div>
   );
 }

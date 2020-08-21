@@ -86,7 +86,7 @@ const marks = [
 ];
 
 function findTimeIndex(value) {
-  return marks.findIndex(mark => mark.value === value) + 1;
+  return marks.findIndex(mark => mark.value === value)+1;
 }
 
 function TimeSeriesSelector({passTimeIndex = f => f}) {

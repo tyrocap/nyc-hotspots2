@@ -19,7 +19,7 @@ const timeIndexMap = {
 const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 
-function DropdownSelector(props) {
+function DropdownSelector(props, {passChangedCity = f => f}) {
   const [city_toggled, CityToggle] = useState(false);
   const [city_selected, selectCity] = useState("Chelsea");
   const [day_toggled, DayToggle] = useState(false);
@@ -29,6 +29,7 @@ function DropdownSelector(props) {
   const changeCity = (event) => {
     event.preventDefault();
     selectCity(event.target.value);
+    passChangedCity(event.target.value);
   };
 
   const changeDay = (event) => {
