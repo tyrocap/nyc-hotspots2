@@ -18,3 +18,9 @@ hottest spots in NYC for restaurants, bars, and pubs. Users can see how
 In the future, I am planning to add a trip planning feature, where if someone
  were to visit NYC, he or she can save the list of hottest places and the
   site autogenerates a plan for the evening. 
+  
+### Instructions to run this repo locally
+
+To run this project in your local computer, git clone or download the project
+, open it in your favourite IDE and provide your API key to 'GoogleMapsReact
+.js' component. 
