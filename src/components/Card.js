@@ -6,7 +6,6 @@ function Card({restaurant}) {
     <div className={`lp-slide active-slide-${restaurant.id}`}>
       <div className="slide-left">
         <img src={restaurant.imageUrls[0]} alt="Image"/>
-        {console.log(restaurant.imageUrls)}
       </div>
       <div className="slide-mid">
         <a href={`https://www.${restaurant.website}`} target="_blank">

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState, useRef} from 'react';
 import {withScriptjs, withGoogleMap, GoogleMap} from "react-google-maps";
 import HeatmapLayer
   from "react-google-maps/lib/components/visualization/HeatmapLayer";
@@ -50,8 +50,14 @@ function GoogleMapReact({changed_city}) {
   const [selectedDay, setDay] = useState("Saturday");
   const [selectedArea, setArea] = useState("Chelsea");
 
+  const firstUpdate = useRef(true);
+
   // whenever the props change, this will update the state
   useEffect(() => {
+    if (firstUpdate.current) {
+      firstUpdate.current = false;
+      return;
+    }
     setArea(changed_city)
   }, [changed_city]);
 
@@ -60,7 +66,7 @@ function GoogleMapReact({changed_city}) {
       {console.log(selectedArea)}
       <GoogleMapComponent
         isMarkerShown
-        googleMapURL="https://maps.googleapis.com/maps/api/js?key=KEYS_HERE&v=3.exp&libraries=geometry,drawing,places,visualization"
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDJFeJW3ZBIgoEVoBFT-4py25QEnL_p1c&v=3.exp&libraries=geometry,drawing,places,visualization"
         loadingElement={<div style={{height: `100%`}}/>}
         containerElement={<div style={{height: `100vh`}}/>}
         mapElement={<div style={{height: `100%`}}/>}

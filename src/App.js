@@ -32,7 +32,7 @@ function App() {
         }}
       />
       <TimesHolder
-        passSelectedCity={newCity => passChangedCity(newCity)}
+        passSelectedCity={() => console.log("Info is here")}
       />
       <MyListHolder
         selected_rests={selected_rests}

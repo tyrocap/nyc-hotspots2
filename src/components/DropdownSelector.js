@@ -28,7 +28,9 @@ function DropdownSelector(props, {passChangedCity = f => f}) {
 
   const changeCity = (event) => {
     event.preventDefault();
+    console.log(city_selected)
     selectCity(event.target.value);
+    console.log(city_selected)
     passChangedCity(event.target.value);
   };
 
@@ -52,7 +54,7 @@ function DropdownSelector(props, {passChangedCity = f => f}) {
           city_toggled ? (
               <div className="dd-city-wrapper">
                 {neighborhoods.map(neighborhood =>
-                  <button className="dd-btn" onClick={changeCity}
+                  <button key={neighborhood.title} className="dd-btn" onClick={changeCity}
                           value={neighborhood.title}>{neighborhood.title}</button>
                 )}
               </div>)
